@@ -1,0 +1,19 @@
+{
+    "name": "供应方名/项目名",   
+    "name": "lichihua/test",   
+    "description": "该项目描述",
+    "authors": [
+        {
+            "name": "作者佚名"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+		"Dash\\tools\\":"src"  
+        }
+    }
+}
